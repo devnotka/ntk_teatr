@@ -1,0 +1,105 @@
+/*
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-xl md:text-2xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+	p {
+		@apply py-1
+	}
+	ul.actor li {
+		@apply py-1
+	}
+	@media screen(sm) {
+		.promo-video-container {
+			padding: 6.25% 0;
+		}
+	}
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+	}
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.te-potolok {
+		background-image: url('/images/bg/potolok.png');
+	}
+	.te-potolok-dark {
+		background-image: url('/images/bg/potolokdark.png');
+	}
+	
+	.te-zdanie {
+		background-image: url('/images/bg/zdanie.png');
+	}
+	.te-zdanie-dark {
+		background-image: url('/images/bg/zdaniedark.png');
+	}
+	.te-fedor-left {
+		background-image: url('/images/fedor/fedor_left.png');
+	}
+	.te-fedor2-left {
+		background-image: url('/images/fedor/fedor2_left.png');
+	}
+	.te-fedor-right {
+		background-image: url('/images/fedor/fedor_right.png');
+	}
+	.te-fedor2-right {
+		background-image: url('/images/fedor/fedor2_right.png');
+	}
+	.te-fedor-cit-1 {
+		background-image: url('/images/fedor/cit_1.png');
+	}
+	.te-fedor-cit-2 {
+		background-image: url('/images/fedor/cit_2.png');
+	}
+	.te-fedor-cit-3 {
+		background-image: url('/images/fedor/cit_3.png');
+	}
+	.te-fedor-cit-4 {
+		background-image: url('/images/fedor/cit_4.png');
+	}
+	.te-fedor-cit-5 {
+		background-image: url('/images/fedor/cit_5.png');
+	}
+	.te-fedor-cit-6 {
+		background-image: url('/images/fedor/cit_6.png');
+	}
+	.te-fedor-cit-7 {
+		background-image: url('/images/fedor/cit_7.png');
+	}
+	.te-fedor-cit-8 {
+		background-image: url('/images/fedor/cit_8.png');
+	}
+	.te-fedor-cit-9 {
+		background-image: url('/images/fedor/cit_9.png');
+	}
+	.te-fedor-cit-10 {
+		background-image: url('/images/fedor/cit_10.png');
+	}
+	.home_promobanner {
+		width:100%;
+		padding-top:20%;
+		background-position:50%;
+		background-size:cover;
+		border-radius:5px;
+	}
+}

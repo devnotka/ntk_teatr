@@ -1,0 +1,8 @@
+<div class="absolute z-30 hidden xl:block" style="">
+	<div data-id="1" id="cit-right-1" style="width:330px;height:210px;margin-top:250px;margin-left:1100px;display:none;opacity:0;" class="citr absolute transition-all duration-1000 ease-out bg-norepeat bg-center te-fedor-cit-1"></div>
+	<div data-id="2" id="cit-right-2" style="width:330px;height:210px;margin-top:250px;margin-left:1100px;display:none;opacity:0;" class="citr absolute transition-all duration-1000 ease-out bg-norepeat bg-center te-fedor-cit-2"></div>
+	<div data-id="3" id="cit-right-3" style="width:330px;height:210px;margin-top:250px;margin-left:1100px;display:none;opacity:0;" class="citr absolute transition-all duration-1000 ease-out bg-norepeat bg-center te-fedor-cit-3"></div>
+	<div data-id="4" id="cit-right-4" style="width:330px;height:210px;margin-top:250px;margin-left:1100px;display:none;opacity:0;" class="citr absolute transition-all duration-1000 ease-out bg-norepeat bg-center te-fedor-cit-6"></div>
+	<div data-id="5" id="cit-right-5" style="width:330px;height:210px;margin-top:250px;margin-left:1100px;display:none;opacity:0;" class="citr absolute transition-all duration-1000 ease-out bg-norepeat bg-center te-fedor-cit-7"></div>
+	<div data-id="6" id="cit-right-6" style="width:330px;height:210px;margin-top:250px;margin-left:1100px;display:none;opacity:0;" class="citr absolute transition-all duration-1000 ease-out bg-norepeat bg-center te-fedor-cit-10"></div>
+</div>
